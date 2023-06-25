@@ -1,9 +1,9 @@
 {
-  "name": "meteor-starter",
+  "name": "meteor-api-starter",
   "version": "0.0.1",
   "scripts": {
     "start": "meteor",
-    "build": "rm -rf meteor-starter.tar.gz bundle/ && meteor build . --architecture os.linux.x86_64 && tar -xvf meteor-starter.tar.gz"
+    "build": "rm -rf meteor-api-starter.tar.gz bundle/ && meteor build . --architecture os.linux.x86_64 && tar -xvf meteor-api-starter.tar.gz"
   },
   "dependencies": {
     "@babel/runtime": "^7.11.2",
